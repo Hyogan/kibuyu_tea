@@ -39,12 +39,13 @@
 .hamburger-bottom{
     position:absolute;
     top : 0;
-    left: 0;
+    left: -5px;
     width: 24px;
-    height: 2px;
+    height: 4px;
     background: white;
     transform: rotate(0);
     transition: all 0.5s;
+    border-radius: 3px;
 }
 
 .hamburger-middle{
@@ -77,15 +78,15 @@
 } */
 
 
-#menu-btn-side .hamburger-top,
-#menu-btn-side .hamburger-middle,
-#menu-btn-side .hamburger-bottom{
+.menu-btn-side .hamburger-top,
+.menu-btn-side .hamburger-middle,
+.menu-btn-side .hamburger-bottom{
     background: black;
 }
 
 
-html.dark #menu-btn-side .hamburger-top,
+/* html.dark #menu-btn-side .hamburger-top,
 html.dark #menu-btn-side .hamburger-middle,
 html.dark #menu-btn-side .hamburger-bottom{
     background: white;
-}
+} */
